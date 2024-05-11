@@ -48,7 +48,7 @@ int tabuleiro[3][3] = {
 };
 ...
 ~~~
-[**_CLIC AQUI PARA VER MAIS_**](https://github.com/joaopaulopereirarezendesesi/JogodaVelha)
+[JogodaVelha](https://github.com/joaopaulopereirarezendesesi/JogodaVelha)
 
 # EMAIL de contato:
 joaopp.rezende@gmail.com
