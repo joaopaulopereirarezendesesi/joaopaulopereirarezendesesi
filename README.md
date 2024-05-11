@@ -31,24 +31,4 @@ de sistemas.
 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width=70px"/> 
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width=75px"/>
 
-## Principais projetos
 
-_Jogo da Velha no ARUINO_
-~~~c++
-#define SEPARADOR "---------"
-#define SEPARADOR2 "------------------------------------------------------------------"
-/*A tabuleiro "tabuleiro" é utlizada 
-para simular o tabuleiro do jogo da velha,
-ou seja, cada posicao da tabuleiro [3][3] representa
-uma posicao do tabuleiro.*/
-int tabuleiro[3][3] = {
-  { 0, 0, 0 },
-  { 0, 0, 0 },
-  { 0, 0, 0 }
-};
-...
-~~~
-[JogodaVelha](https://github.com/joaopaulopereirarezendesesi/JogodaVelha)
-
-# EMAIL de contato:
-joaopp.rezende@gmail.com
