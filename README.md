@@ -1,6 +1,6 @@
 # E ai? Bem vindo ao meu perfil no Github!
 
-# Quem é João Paulo Pereira Rezende?
+## Quem é João Paulo Pereira Rezende?
 
 > Ocupação: Estudante
 > 
@@ -12,13 +12,13 @@
 >
 >Curso SENAI: Desenvolvimento de sistemas
 
-# Sobre mim
+## Sobre mim
 
 Sou um estudante apaixonado pela matemática e pela física e espero, um dia, estar formado em física e estar na linha de frente
 desbravando a natureza, mas por enquanto, sou um estudante do ensino médio cheio de sonhos e ambições estudando desenvolvimento
 de sistemas.
 
-# Tech Stack
+## Tech Stack
 
 **Backand:**
 
