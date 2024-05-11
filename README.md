@@ -1,4 +1,6 @@
-# João Paulo Pereira Rezende
+# E ai? Bem vindo ao meu perfil no Github!
+
+# Quem é João Paulo Pereira Rezende?
 
 > Ocupação: Estudante
 > 
