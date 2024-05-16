@@ -39,4 +39,12 @@ de sistemas.
 <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width=70px"/> 
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width=75px"/>
 
+**Estatísticas do GitHub**
+
+<div align="left">
+  <a href="https://github.com/CoeMatheusLuiz"></a>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulopereirarezendesesi&layout=compact&langs_count=7&theme=monokai"/>
+</div>
+
+
 
