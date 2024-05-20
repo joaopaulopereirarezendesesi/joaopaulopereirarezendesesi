@@ -1,48 +1,26 @@
-# E ai? Bem vindo ao meu perfil no Github!
+### Bem-vindo ao meu perfil no GitHub! 😊
+Me chamo João Paulo Pereira Rezende, apaixonado por matemática e física. Meu objetivo é me formar em física e contribuir para a exploração científica. Atualmente, sou um estudante do ensino médio cheio de ambições, imerso no mundo do desenvolvimento de software.
 
-## Quem é João Paulo Pereira Rezende?
+### Experiências 👨🏻‍🎓
+Tenho experiência como desenvolvedor de software em várias linguagens, como Python, JavaScript e Java. Estou sempre em busca de aprender novas tecnologias e aprimorar minhas habilidades técnicas. 🧠
 
-> Ocupação: Estudante
-> 
->Escolaridade: Ensino Médio incompleto
->
->Serie escolar: 2º Ano
-> 
->Escola: SESI/SENAI
->
->Curso SENAI: Desenvolvimento de sistemas
+### Tech Stack 👨‍💻
 
-## Sobre mim
+Back-end: <br>
+<img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" width="30" height="30"/>
+<br><br>
+Front-end: <br>
+<img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" width="30" height="30"/>
+<br><br>
+Code Version: <br>
+<img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" width="30" height="30"/>
+<img src="https://cdn-icons-png.flaticon.com/512/779/779088.png" width="30" height="30"/>
 
-Sou um estudante apaixonado pela matemática e pela física e espero, um dia, estar formado em física e estar na linha de frente
-desbravando a natureza, mas por enquanto, sou um estudante do ensino médio cheio de sonhos e ambições estudando desenvolvimento
-de sistemas.
+#### Estatísticas do GitHub 📊
 
-## Tech Stack
-
-**Beckand:**
-
-<div align="left"> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" width=70px"/> 
-</div>
-
-**Frontand:**
-
-<div align="left"> 
-<img src="https://encurtador.com.br/knMSX" width=80px"/>
-</div>
-
-
-**Code Versioning:**
-
-<div align="left"> 
-<img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width=70px"/> 
-<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width=75px"/>
-
-**Estatísticas do GitHub**
-
-<div align="left">
-  <a href="https://github.com/CoeMatheusLuiz"></a>
+<div align="center">
+  <a href="https://github.com/joaopaulopereirarezendesesi"></a>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaopaulopereirarezendesesi&show_icons=true&theme=monokai&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulopereirarezendesesi&layout=compact&langs_count=7&theme=monokai"/>
 </div>
 
