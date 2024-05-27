@@ -1,4 +1,4 @@
-```
+```javascript
 console.log("Bem-vindo ao meu perfil no GitHub!")
 ```
 ### Sobre mim 😊
