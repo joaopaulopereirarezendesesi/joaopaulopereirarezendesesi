@@ -16,17 +16,20 @@ jobs:
       - name: Get all repositories
         id: repos
         run: |
+          # Faz a solicitação à API do GitHub para obter todos os repositórios do usuário
           curl -s -H "Authorization: token ${{ secrets.TOKEN }}" "https://api.github.com/user/repos?per_page=100" > repos.json
           echo "::set-output name=repos::$(cat repos.json)"
 
       - name: Get latest commit from all repositories
         id: latest_commit
         run: |
+          # Analisa a resposta da API e obtém o nome completo de cada repositório
           repos=$(echo "${{ steps.repos.outputs.repos }}" | jq -r '.[].full_name')
           latest_commit_sha=""
           latest_commit_date=0
           latest_commit_repo=""
 
+          # Itera sobre cada repositório para encontrar o commit mais recente
           for repo in $repos; do
             commit=$(curl -s -H "Authorization: token ${{ secrets.TOKEN }}" "https://api.github.com/repos/$repo/commits?per_page=1" | jq -r '.[0]')
             commit_date=$(echo "$commit" | jq -r '.commit.committer.date' | date -d - +%s)
@@ -58,6 +61,7 @@ jobs:
 
       - name: Commit and push if changes
         run: |
+          # Comita e faz push das mudanças no repositório
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add README.md
