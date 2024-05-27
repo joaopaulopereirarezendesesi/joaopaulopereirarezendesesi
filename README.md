@@ -1,4 +1,7 @@
-### Bem-vindo ao meu perfil no GitHub! 😊
+´´´javascript
+console.log("Bem-vindo ao meu perfil no GitHub!")
+´´´
+### Sobre mim 😊
 Me chamo João Paulo Pereira Rezende, apaixonado por matemática e física. Meu objetivo é me formar em física e contribuir para a exploração científica. Atualmente, sou um estudante do ensino médio cheio de ambições, imerso no mundo do desenvolvimento de software.
 
 <br>
@@ -25,8 +28,8 @@ Code Version: &ensp;
 
 <div align="center">
   <a href="https://github.com/joaopaulopereirarezendesesi"></a>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaopaulopereirarezendesesi&show_icons=true&theme=monokai&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulopereirarezendesesi&layout=compact&langs_count=7&theme=monokai"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaopaulopereirarezendesesi&show_icons=true&theme=default&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulopereirarezendesesi&layout=compact&langs_count=7&theme=defult"/>
 </div>
 
 
