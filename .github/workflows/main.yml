@@ -17,7 +17,7 @@ jobs:
         id: repos
         run: |
           # Faz a solicitação à API do GitHub para obter todos os repositórios do usuário
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/user/repos?per_page=100" > repos.json
+          curl -s -H "Authorization: token ${{ secrets.TOKEN }}" "https://api.github.com/user/repos?per_page=100" > repos.json
           echo "::set-output name=repos::$(cat repos.json)"
 
       - name: Get latest commit from all repositories
@@ -56,4 +56,4 @@ jobs:
           git commit -m "Atualiza README com o último commit"
           git push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
