@@ -1,6 +1,6 @@
-´´´javascript
+```
 console.log("Bem-vindo ao meu perfil no GitHub!")
-´´´
+```
 ### Sobre mim 😊
 Me chamo João Paulo Pereira Rezende, apaixonado por matemática e física. Meu objetivo é me formar em física e contribuir para a exploração científica. Atualmente, sou um estudante do ensino médio cheio de ambições, imerso no mundo do desenvolvimento de software.
 
