@@ -1,0 +1,59 @@
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Executa diariamente à meia-noite
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+
+      - name: Get all repositories
+        id: repos
+        run: |
+          # Faz a solicitação à API do GitHub para obter todos os repositórios do usuário
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/user/repos?per_page=100" > repos.json
+          echo "::set-output name=repos::$(cat repos.json)"
+
+      - name: Get latest commit from all repositories
+        id: latest_commit
+        run: |
+          # Analisa a resposta da API e obtém o nome completo de cada repositório
+          repos=$(echo "${{ steps.repos.outputs.repos }}" | jq -r '.[].full_name')
+          latest_commit=""
+          latest_commit_date=0
+
+          # Itera sobre cada repositório para encontrar o commit mais recente
+          for repo in $repos; do
+            commit=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/repos/$repo/commits?per_page=1" | jq -r '.[0]')
+            commit_date=$(echo "$commit" | jq -r '.commit.committer.date' | date -d - +%s)
+            
+            if [ "$commit_date" -gt "$latest_commit_date" ]; then
+              latest_commit_date=$commit_date
+              latest_commit=$(echo "$commit" | jq -r '.commit.message')
+            fi
+          done
+
+          echo "::set-output name=latest_commit::$latest_commit"
+
+      - name: Update README
+        run: |
+          # Atualiza o arquivo README.md com a mensagem do commit mais recente
+          latest_commit="${{ steps.latest_commit.outputs.latest_commit }}"
+          sed -i "s|Último commit:.*|Último commit: $latest_commit|g" README.md
+
+      - name: Commit and push if changes
+        run: |
+          # Comita e faz push das mudanças no repositório
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m "Atualiza README com o último commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
