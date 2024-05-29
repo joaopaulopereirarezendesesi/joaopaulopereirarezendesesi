@@ -2,11 +2,11 @@
  public static String dependedahora() {
         int horaAtual = java.time.LocalTime.now().getHour();
         if (horaAtual < 12) {
-            return "saia, quero dormir";
+            return "Quero dormir";
         } else if (horaAtual < 18) {
-            return "Boa tarde, como você anda?";
+            return "Boa tarde, bom vindo ao meu perfil no GITHUB";
         } else {
-            return "Não quero saber! estou como sono";
+            return "Estou como sono";
         }
     }
     public static void main(String[] args) {
