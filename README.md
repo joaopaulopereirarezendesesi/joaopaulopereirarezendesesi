@@ -1,10 +1,10 @@
 ```javascript
  public static String dependedahora() {
         int horaAtual = java.time.LocalTime.now().getHour();
-        if (horaAtual < 12) {
+        if (horaAtual <= 8) {
             return "Quero dormir";
-        } else if (horaAtual < 18) {
-            return "Boa tarde, bom vindo ao meu perfil no GITHUB";
+        } else if (horaAtual <= 18) {
+            return "Boa dia ou tarde, bem vindo ao meu perfil no GITHUB";
         } else {
             return "Estou como sono";
         }
