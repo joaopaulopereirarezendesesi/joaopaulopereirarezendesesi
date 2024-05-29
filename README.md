@@ -1,5 +1,19 @@
 ```javascript
-console.log("Bem-vindo ao meu perfil no GitHub!")
+ public static String dependedahora() {
+        int horaAtual = java.time.LocalTime.now().getHour();
+        if (horaAtual < 12) {
+            return "saia, quero dormir";
+        } else if (horaAtual < 18) {
+            return "Boa tarde, como você anda?";
+        } else {
+            return "Não quero saber! estou como sono";
+        }
+    }
+    public static void main(String[] args) {
+        String humor = dependedahora();
+        System.out.println(humor + "!");
+    }
+}
 ```
 ### Sobre mim 😊
 Me chamo João Paulo Pereira Rezende, apaixonado por matemática e física. Meu objetivo é me formar em física e contribuir para a exploração científica. Atualmente, sou um estudante do ensino médio cheio de ambições, imerso no mundo do desenvolvimento de software.
