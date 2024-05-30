@@ -48,6 +48,7 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
   </td>
 </tr>
   </table>
+  
 ### Estatísticas do GitHub 📊
  <div align="center">
   <a href="https://github.com/joaopaulopereirarezendesesi"></a>
