@@ -48,10 +48,8 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
   </td>
 </tr>
   </table>
-<br>
-#### Estatísticas do GitHub 📊
-
-<div align="center">
+### Estatísticas do GitHub 📊
+ <div align="center">
   <a href="https://github.com/joaopaulopereirarezendesesi"></a>
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaopaulopereirarezendesesi&show_icons=true&theme=transparent&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulopereirarezendesesi&layout=compact&langs_count=7&theme=transparent"/>
