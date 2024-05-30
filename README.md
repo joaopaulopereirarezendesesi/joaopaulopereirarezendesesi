@@ -57,4 +57,15 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
 </div>
 
 
+### Contato 📧
+<table>
+  <tr>
+    <td>
+      <img src= "https://cdn.pixabay.com/animation/2023/06/13/15/13/15-13-36-234_512.gif" alt="icon" width="65" height="65" />
+    </td>
+    <td style="vertical-align:middle;">
+      joaopp.rezende@gmail.com
+    </td>
+  </tr>
+</table>
 
