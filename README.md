@@ -46,6 +46,9 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
   <td align="center" width="96">
   <img src="https://techstack-generator.vercel.app/github-icon.svg" width="45" height="45" alt="GitHub" /><br>GitHub
   </td>
+  <td align="center" width="100">
+  <img src="https://cdn-images-1.medium.com/v2/resize:fit:800/1*LGNLwf-3dknhu1mMalKDJQ.gif" width="45" alt="GitHub" /><br>Node JS
+  </td>
 </tr>
   </table>
   
