@@ -29,7 +29,7 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
 <table align="center">
 <tr>
    <td align="center" width="96">
-  <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="icon" width="65" height="65" /><br>CSS
+  <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="icon" width="65" height="65" /><br>HTML
   </td> 
    <td align="center" width="96">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="icon" width="65" height="65" /><br>CSS
