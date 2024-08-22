@@ -49,6 +49,9 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
   <td align="center" width="96">
   <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="45" alt="GitHub" /><br>Node JS
   </td>
+  <td align="center" width="96">
+  <img src="https://devopstuto-docker.readthedocs.io/en/latest/_images/mariadb_logo.png" width="45" alt="GitHub" /><br>MariaDB
+  </td>
 </tr>
   </table>
   
