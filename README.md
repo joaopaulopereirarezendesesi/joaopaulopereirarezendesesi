@@ -1,9 +1,9 @@
 ```javascript
  public static String dependedahora() {
         int horaAtual = java.time.LocalTime.now().getHour();
-        if (horaAtual <= 8) {
+        if (horaAtual < 9) {
             return "Quero dormir";
-        } else if (horaAtual <= 18) {
+        } else if (horaAtual < 19) {
             return "Boa dia ou tarde, bem vindo ao meu perfil no GITHUB";
         } else {
             return "Estou como sono";
