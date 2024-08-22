@@ -1,18 +1,17 @@
 ```javascript
- public static String dependedahora() {
-        int horaAtual = java.time.LocalTime.now().getHour();
-        if (horaAtual < 9) {
-            return "Quero dormir";
-        } else if (horaAtual < 19) {
-            return "Boa dia ou tarde, bem vindo ao meu perfil no GITHUB";
-        } else {
-            return "Estou como sono";
-        }
-    }
-    public static void main(String[] args) {
-        String humor = dependedahora();
-        System.out.println(humor + "!");
-    }
+public static String dependedahora() {
+  int horaAtual = java.time.LocalTime.now().getHour();
+  if (horaAtual < 9) {
+    return "Quero dormir";
+  } else if (horaAtual < 19) {
+    return "Boa dia ou tarde, bem vindo ao meu perfil no GITHUB";
+  } else {
+    return "Estou como sono";
+  }
+}
+public static void main(String[] args) {
+  String humor = dependedahora();
+  System.out.println(humor + "!");
 }
 ```
 ### Sobre mim 😊
