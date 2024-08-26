@@ -29,22 +29,21 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
 
 ### Tech Stack 👨‍💻
 <table align="center">
-<tr>
+  <tr>
    <td align="center" width="96">
-   <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="icon" width="65" height="65" /><br>HTML
+   <img src= "https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/08-15-55-13-06-00-18-00-html5.gif" alt="icon" width="65" height="65" /><br>HTML
    </td> 
    <td align="center" width="96">
-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="icon" width="65" height="65" /><br>CSS
+   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmQ3OWQyZWI0MWU1YjM4Zjk3OTI0NTU5NDEyMWU5OTc3N2E5NWYxZiZjdD1z/fsEaZldNC8A1PJ3mwp/giphy.gif" alt="icon" width="65" height="65" /><br>CSS
+   </td> 
+   <td align="center" width="96">
+   <img src="https://techstack-generator.vercel.app/js-icon.svg" width="60" height="60"/><br>JavaScript
    </td> 
    <td align="center" width="96">
    <img src="https://2.bp.blogspot.com/-qYSLCI1rjD4/VqM5FUieZ5I/AAAAAAAACdo/ykyzL6Uuxd0/s1600/CPP.gif" alt="icon" width="65" height="65" /><br>C++
    </td>  
-   <td align="center" width="96">
-   <img src="https://camo.githubusercontent.com/0418a2bf25601cc5d8fae74f654b10d5734360ff2b1bb3b2fea4bb086baf5586/68747470733a2f2f74656368737461636b2d67656e657261746f722e76657263656c2e6170702f6a732d69636f6e2e737667" width="60" height="60"/><br>JavaScript
-   </td>  
-   <td align="center" width="96">
-   <img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" width="30" height="30"/><br>GIT
-   </td>
+ </tr>
+  <tr>
    <td align="center" width="96">
    <img src="https://techstack-generator.vercel.app/github-icon.svg" width="45" height="45" alt="GitHub" /><br>GitHub
    </td>
@@ -53,8 +52,11 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
    </td>
    <td align="center" width="96">
    <img src="https://devopstuto-docker.readthedocs.io/en/latest/_images/mariadb_logo.png" width="45" alt="GitHub" /><br>MariaDB
+   </td> 
+   <td align="center" width="96">
+   <img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" width="30" height="30"/><br>GIT
    </td>
- </tr>
+  </tr>
 </table>
   
 ### Estatísticas do GitHub 📊
