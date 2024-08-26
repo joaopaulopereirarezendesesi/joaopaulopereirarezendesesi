@@ -16,7 +16,6 @@ public class Main {
         System.out.println(humor + "!");
     }
 }
-
 ```
 ### Sobre mim 😊
 Me chamo João Paulo Pereira Rezende, apaixonado por matemática e física. Meu objetivo é me formar em física e contribuir para a exploração científica. Atualmente, sou um estudante do ensino médio cheio de ambições, imerso no mundo do desenvolvimento de software.
@@ -31,10 +30,10 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
 ### Tech Stack 👨‍💻
 <table align="center">
 <tr>
-   <td align="center" width="96">
+  <td align="center" width="96">
   <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="icon" width="65" height="65" /><br>HTML
   </td> 
-   <td align="center" width="96">
+  <td align="center" width="96">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="icon" width="65" height="65" /><br>CSS
   </td> 
   <td align="center" width="96">
