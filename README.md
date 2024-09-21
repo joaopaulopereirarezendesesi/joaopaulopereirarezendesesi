@@ -1,3 +1,13 @@
+<hr>
+<div align="center" style="display: inline-block;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=FFFFFF&size=48&center=true&vCenter=true&width=1200&height=100&lines=Oi!;+Seja+bem+vindo+ao+meu+github+🧑‍💻">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=000000&size=48&center=true&vCenter=true&width=1200&height=100&lines=Oi!;+Seja+bem+vindo+ao+meu+github+🧑‍💻">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=000000&size=48&center=true&vCenter=true&width=1200&height=100&lines=Oi!;+Seja+bem+vindo+ao+meu+github+🧑‍💻" alt="Typing SVG">
+  </picture>
+</div>
+<hr>
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/joaopaulopereirarezendesesi/joaopaulopereirarezendesesi/blob/output/github-contribution-grid-snake-dark.svg">
