@@ -77,6 +77,17 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
    <img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" width="30" height="30"/><br>GIT
    </td>
   </tr>
+  <tr>
+   <td align="center" width="96">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png" width="45" height="45" alt="GitHub" /><br>GraphQL
+   </td>
+   <td align="center" width="96">
+   <img src="https://www.php.net/images/logos/new-php-logo.svg" width="45" height="45" alt="GitHub" /><br>PHP
+   </td>
+   <td align="center" width="96">
+   <img src="https://knexjs.org/knex-logo.png" width="45" height="45" alt="GitHub" /><br>knex.js
+   </td>
+  </tr>
 </table>
   
 ### Estatísticas do GitHub 📊
