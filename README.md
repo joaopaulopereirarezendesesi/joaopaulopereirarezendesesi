@@ -85,7 +85,18 @@ Tenho experiência como desenvolvedor de software em várias linguagens, JavaScr
    <img src="https://www.php.net/images/logos/new-php-logo.svg" width="45" height="45" alt="GitHub" /><br>PHP
    </td>
    <td align="center" width="96">
-   <img src="https://knexjs.org/knex-logo.png" width="45" height="45" alt="GitHub" /><br>knex.js
+   <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="45" height="45" alt="GitHub" /><br>Typescript 
+   </td>
+   <td align="center" width="96">
+   <img src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-11yvtwzn.png" width="45" height="45" alt="GitHub" /><br>Next.js
+   </td>
+  </tr>
+  <tr>
+   <td align="center" width="96">
+   <img src="https://techstack-generator.vercel.app/react-icon.svg" width="45" height="45" alt="GitHub" /><br>React
+   </td>
+   <td align="center" width="96">
+   <img src="https://github.com/user-attachments/assets/ae9202b3-9813-48a4-831c-6f3ec14c23e6" width="45" height="45" alt="GitHub" /><br>Apollo Server
    </td>
   </tr>
 </table>
