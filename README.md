@@ -1,12 +1,14 @@
 <hr>
 <div align="center" style="display: inline-block;">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=FFFFFF&size=48&center=true&vCenter=true&width=1200&height=100&lines=Oi!;+Seja+bem+vindo+ao+meu+github+🧑‍💻">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=000000&size=48&center=true&vCenter=true&width=1200&height=100&lines=Oi!;+Seja+bem+vindo+ao+meu+github+🧑‍💻">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=000000&size=48&center=true&vCenter=true&width=1200&height=100&lines=Oi!;+Seja+bem+vindo+ao+meu+github+🧑‍💻" alt="Typing SVG">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=FFFFFF&size=48&center=true&vCenter=true&width=1200&height=100&lines=Ol%C3%A1!;+Seja+bem-vindo(a)+ao+meu+perfil!+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=000000&size=48&center=true&vCenter=true&width=1200&height=100&lines=Ol%C3%A1!;+Seja+bem-vindo(a)+ao+meu+perfil!+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Courier+New&weight=700&color=000000&size=48&center=true&vCenter=true&width=1200&height=100&lines=Ol%C3%A1!;+Seja+bem-vindo(a)+ao+meu+perfil!+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB" alt="Typing SVG">
   </picture>
 </div>
 <hr>
+
+<br>
 
 <div align="center">
   <picture>
@@ -18,93 +20,72 @@
 
 <br>
 
-```java
-public class Main {
-    public static String dependedahora() {
-        int horaAtual = java.time.LocalTime.now().getHour();
-        if (horaAtual < 9) {
-            return "Quero dormir";
-        } else if (horaAtual < 19) {
-            return "Bom dia ou tarde, bem-vindo ao meu perfil no GitHub";
-        } else {
-            return "Estou com sono";
-        }
-    }
+```PHP
+<?php
+function getGreetingByCurrentTime(): string {
+    $h = (int) (new DateTime())->format("G");
 
-    public static void main(String[] args) {
-        String humor = dependedahora();
-        System.out.println(humor + "!");
-    }
+    return match (true) {
+        $h < 6  => "Melhor dormir... ou codar em silêncio",
+        $h < 9  => "Quero dormir, mas o mundo insiste em funcionar",
+        $h < 12 => "Bom dia! Cérebro ligando... quase lá",
+        $h < 15 => "Boa tarde! Energia no código, foco na missão",
+        $h < 18 => "Já bateu o cansaço, mas ainda dá pra aprender algo novo",
+        $h < 21 => "Boa noite! Ainda funcionando no modo automático",
+        $h < 23 => "Hora perfeita pra filosofar e codar ideias malucas",
+        default => "Vai dormir, mano. Amanhã tem mais código"
+    };
 }
+
+echo getGreetingByCurrentTime() . "!";
 ```
+
+<br>
+
 ### Sobre mim 😊
-Me chamo João Paulo Pereira Rezende, apaixonado por matemática e física. Meu objetivo é me formar em física e contribuir para a exploração científica. Atualmente, sou um estudante do ensino médio cheio de ambições, imerso no mundo do desenvolvimento de software.
+
+Meu nome é João Paulo Pereira Rezende, apaixonado por matemática e física. Meu objetivo é me formar em física para contribuir com avanços científicos relevantes. Ainda no ensino médio, já estou dedicado ao desenvolvimento de software, buscando sempre aprender de forma prática e aprofundada.
 
 <br>
 
 ### Experiências 👨🏻‍🎓
-Tenho experiência como desenvolvedor de software em várias linguagens, JavaScript e C++. Estou sempre em busca de aprender novas tecnologias e aprimorar minhas habilidades técnicas. 🧠
+
+Tenho experiência sólida nas seguintes linguagens: PHP e C++. Estou sempre em busca de aprimorar minhas habilidades técnicas e explorar novas tecnologias, mantendo uma postura focada, curiosa e dedicada ao aprendizado contínuo.
 
 <br>
 
 ### Tech Stack 👨‍💻
 <table align="center">
   <tr>
-   <td align="center" width="96">
-   <img src= "https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/08-15-55-13-06-00-18-00-html5.gif" alt="icon" width="65" height="65" /><br>HTML
-   </td> 
-   <td align="center" width="96">
-   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmQ3OWQyZWI0MWU1YjM4Zjk3OTI0NTU5NDEyMWU5OTc3N2E5NWYxZiZjdD1z/fsEaZldNC8A1PJ3mwp/giphy.gif" alt="icon" width="65" height="65" /><br>CSS
-   </td> 
-   <td align="center" width="96">
-   <img src="https://techstack-generator.vercel.app/js-icon.svg" width="60" height="60"/><br>JavaScript
-   </td> 
-   <td align="center" width="96">
-   <img src="https://2.bp.blogspot.com/-qYSLCI1rjD4/VqM5FUieZ5I/AAAAAAAACdo/ykyzL6Uuxd0/s1600/CPP.gif" alt="icon" width="65" height="65" /><br>C++
-   </td>  
- </tr>
-  <tr>
-   <td align="center" width="96">
-   <img src="https://techstack-generator.vercel.app/github-icon.svg" width="45" height="45" alt="GitHub" /><br>GitHub
-   </td>
-   <td align="center" width="96">
-   <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="45" alt="GitHub" /><br>Node JS
-   </td>
-   <td align="center" width="96">
-   <img src="https://devopstuto-docker.readthedocs.io/en/latest/_images/mariadb_logo.png" width="45" alt="GitHub" /><br>MariaDB
-   </td> 
-   <td align="center" width="96">
-   <img src="https://cdn-icons-png.flaticon.com/512/4494/4494740.png" width="30" height="30"/><br>GIT
-   </td>
-  </tr>
-  <tr>
-   <td align="center" width="96">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png" width="45" height="45" alt="GitHub" /><br>GraphQL
-   </td>
-   <td align="center" width="96">
-   <img src="https://www.php.net/images/logos/new-php-logo.svg" width="45" height="45" alt="GitHub" /><br>PHP
-   </td>
-   <td align="center" width="96">
-   <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="45" height="45" alt="GitHub" /><br>Typescript 
-   </td>
-   <td align="center" width="96">
-   <img src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-11yvtwzn.png" width="45" height="45" alt="GitHub" /><br>Next.js
-   </td>
-  </tr>
-  <tr>
-   <td align="center" width="96">
-   <img src="https://techstack-generator.vercel.app/react-icon.svg" width="45" height="45" alt="GitHub" /><br>React
-   </td>
-   <td align="center" width="96">
-   <img src="https://github.com/user-attachments/assets/ae9202b3-9813-48a4-831c-6f3ec14c23e6" width="45" height="45" alt="GitHub" /><br>Apollo Server
-   </td>
+    <td align="center" width="96">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PHP-Light.svg" />
+        <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/PHP-Dark.svg" alt="PHP" width="65" height="65" />
+      </picture>
+      <br>PHP
+    </td> 
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CPP.svg" alt="C++" width="65" height="65" />
+      <br>C++
+    </td>  
+    <td align="center" width="96">
+      <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Git.svg" alt="GIT" width="65" height="65" />
+      <br>Git
+    </td>
+    <td align="center" width="96">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Github-Light.svg" />
+        <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Github-Dark.svg" alt="Github" width="65" height="65" />
+      </picture>
+      <br>GitHub
+    </td>
   </tr>
 </table>
   
 ### Estatísticas do GitHub 📊
  <div align="center">
   <a href="https://github.com/joaopaulopereirarezendesesi"></a>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=joaopaulopereirarezendesesi&show_icons=true&theme=transparent&include_all_commits=true&count_private=true"/>
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=joaopaulopereirarezendesesi&show_icons=true&theme=transparent&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=joaopaulopereirarezendesesi&layout=compact&langs_count=7&theme=transparent"/>
  </div>
 
