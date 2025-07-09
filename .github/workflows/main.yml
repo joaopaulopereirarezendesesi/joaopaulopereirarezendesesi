@@ -1,38 +1,30 @@
-name: generate animation
+name: Generate pacman animation
 
 on:
-  # Executa automaticamente a cada 24 horas
-  schedule:
-    - cron: "0 0 * * *"
-  
-  # Permite rodar o job manualmente a qualquer momento
-  workflow_dispatch: 
-  
-  # Executa em cada push na branch master
+  schedule: # execute every 12 hours
+    - cron: "* */12 * * *"
+
+  workflow_dispatch:
+
   push:
     branches:
-      - master
-    
+    - main
+
 jobs:
   generate:
-    permissions: 
+    permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # Gera um jogo da cobrinha a partir do gráfico de contribuições do usuário joaopaulopereirarezendesesi
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: joaopaulopereirarezendesesi
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-      # Faz o push do conteúdo da pasta build para uma branch
-      # O conteúdo estará disponível em https://raw.githubusercontent.com/joaopaulopereirarezendesesi/<repository>/<target_branch>/<file>
-      - name: push github-contribution-grid-snake.svg to the output branch
+          github_user_name: ${{ github.repository_owner }}
+
+
+      - name: push pacman-contribution-graph.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
