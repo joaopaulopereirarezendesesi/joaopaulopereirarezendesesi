@@ -1,0 +1,51 @@
+name: Atualizar status dinâmico no README
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:  
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Instalar dependências
+        run: npm install replace-in-file --save
+
+      - name: Atualizar status no README
+        run: |
+          node <<EOF
+          const fs = require('fs');
+          const replace = require('replace-in-file');
+
+          const hora = new Date().getHours();
+          let mensagem = '';
+
+          if (hora < 6) mensagem = 'Melhor dormir... 😴';
+          else if (hora < 12) mensagem = 'Bom dia, pronto pra aprender algo novo! ☕';
+          else if (hora < 18) mensagem = 'Boa tarde! Hora de codar e refletir. 🧠';
+          else mensagem = 'Boa noite, mas minha mente ainda está ligada. 🌙';
+
+          replace.sync({
+            files: 'README.md',
+            from: /<!-- STATUS -->[^]*?<!-- STATUS -->/g,
+            to: `<!-- STATUS -->\n${mensagem}\n<!-- STATUS -->`,
+          });
+          EOF
+
+      - name: Commit e push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🕒 Atualiza status baseado na hora" || echo "Nada pra commitar"
+          git push
